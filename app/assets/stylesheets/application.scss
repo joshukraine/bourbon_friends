@@ -1,3 +1,41 @@
-@import "bourbon";
-// @import "neat";
-// @import "base/base";
+@charset "utf-8";
+@import "normalize";
+@import "bourbon/bourbon";
+@import "neat";
+@import "base/base";
+
+header {
+  background-color: teal;
+  padding: 20px;
+  margin: 10px;
+}
+
+#main {
+  background-color: beige;
+  padding: 20px;
+  margin: 10px;
+}
+
+article {
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 10px;
+}
+
+nav {
+  background-color: crimson;
+  padding: 20px;
+  margin: 10px;
+}
+
+aside {
+  background-color: goldenrod;
+  padding: 20px;
+  margin: 10px;
+}
+
+footer {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 10px;
+}
