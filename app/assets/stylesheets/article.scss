@@ -1,0 +1,5 @@
+article {
+  @include span-columns(8);
+  background-color: mediumorchid;
+  padding: 20px;
+}
