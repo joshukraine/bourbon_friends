@@ -11,7 +11,7 @@ gem "jbuilder", "~> 2.0"
 gem "sdoc", "~> 0.4.0", group: :doc
 gem "autoprefixer-rails"
 gem "bourbon", "5.0.0.beta.7"
-gem "neat"
+gem "neat", ">= 2.0.0"
 gem "bitters"
 gem "high_voltage"
 gem "haml-rails"
