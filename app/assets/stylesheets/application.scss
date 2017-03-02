@@ -7,6 +7,13 @@
 
 @import "article";
 
+.container {
+  @include grid-container;
+  @include margin(null auto);
+  max-width: 75rem;
+  position: relative;
+}
+
 header {
   background-color: teal;
   padding: 20px;
@@ -14,8 +21,6 @@ header {
 }
 
 #main {
-  @include grid-container;
-  width: 1200px;
   background-color: beige;
   display: flex;
 }
