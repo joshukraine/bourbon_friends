@@ -1,11 +1,18 @@
 @charset "utf-8";
 @import "normalize";
 @import "bourbon/bourbon";
-@import "grid-settings";
 @import "neat/neat";
+@import "neat-settings";
 @import "base/base";
 
 @import "article";
+
+.container {
+  @include grid-container;
+  @include margin(null auto);
+  max-width: 75rem;
+  position: relative;
+}
 
 header {
   background-color: teal;
@@ -14,13 +21,12 @@ header {
 }
 
 #main {
-  @include outer-container;
   background-color: beige;
   display: flex;
 }
 
 nav {
-  @include span-columns(2);
+  @include grid-column(2);
   background-color: crimson;
   padding: 20px;
 }
@@ -28,7 +34,7 @@ nav {
 
 
 aside {
-  @include span-columns(2);
+  @include grid-column(2);
   background-color: goldenrod;
   padding: 20px;
 }
